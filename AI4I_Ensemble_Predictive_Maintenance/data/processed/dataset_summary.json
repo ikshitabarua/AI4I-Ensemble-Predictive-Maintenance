@@ -1,0 +1,47 @@
+{
+  "rows": 10000,
+  "source_columns": [
+    "UID",
+    "Product ID",
+    "Type",
+    "Air temperature",
+    "Process temperature",
+    "Rotational speed",
+    "Torque",
+    "Tool wear",
+    "Machine failure",
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF"
+  ],
+  "model_features": [
+    "Air temperature",
+    "Process temperature",
+    "Rotational speed",
+    "Torque",
+    "Tool wear",
+    "Temperature Difference",
+    "Mechanical Power [W]",
+    "Torque_RPM",
+    "ToolWear_Torque",
+    "ToolWear_RPM",
+    "Type_H",
+    "Type_L",
+    "Type_M"
+  ],
+  "original_distribution": {
+    "0": 9661,
+    "1": 339
+  },
+  "train_distribution": {
+    "0": 7729,
+    "1": 271
+  },
+  "test_distribution": {
+    "0": 1932,
+    "1": 68
+  },
+  "note": "Test set is untouched. SMOTE is applied only within model-training folds/partitions."
+}

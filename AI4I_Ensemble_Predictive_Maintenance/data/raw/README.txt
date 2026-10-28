@@ -1,0 +1,1 @@
+Dataset is downloaded to this folder by running `python download_dataset.py`. Source: UCI Machine Learning Repository, AI4I 2020 Predictive Maintenance Dataset, DOI 10.24432/C5HS5C. The dataset file is intentionally not bundled here.
